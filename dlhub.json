@@ -1,0 +1,453 @@
+--> Dataset Information <--
+{
+  "datacite": {
+    "creators": [
+      {
+        "givenName": "Lane",
+        "familyName": "Schultz",
+        "affiliations": []
+      }
+    ],
+    "titles": [
+      {
+        "title": "Data for fitting cirtical casting diamter to common characteristic temperatures."
+      }
+    ],
+    "publisher": "DLHub",
+    "publicationYear": "2021",
+    "identifier": {
+      "identifier": "10.YET/UNASSIGNED",
+      "identifierType": "DOI"
+    },
+    "descriptions": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "alternateIdentifiers": [],
+    "rightsList": [],
+    "resourceType": {
+      "resourceTypeGeneral": "Dataset"
+    }
+  },
+  "dlhub": {
+    "version": "0.9.4",
+    "domains": [
+      "material science",
+      "metallic glasses"
+    ],
+    "visible_to": [
+      "public"
+    ],
+    "name": "metallic_glasses_GB_2_data",
+    "files": {
+      "data": "GB_2_data.csv"
+    },
+    "type": "dataset"
+  },
+  "dataset": {
+    "format": "csv",
+    "read_options": {},
+    "columns": [
+      {
+        "name": "tg*1/[(tg+tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "tl*1/(tg-tx)",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "tx*1/tg",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tg+tl)*1/[(tl-tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tg-tl)*1/(tg-tx)",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tg-tx)*1/(tg-tl)",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tl+tx)*1/[tl^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tl-tx)*[(tl+tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tl-tx)*1/(tg-tl)",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "(tl-tx)*1/[(tg-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tg^3]*1/[(tg+tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tg^4]*1/[(tg-tl)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tl^2]*1/[(tl+tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tl^3]*1/[(tg+tl)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tl^3]*1/[(tg+tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tl^4]*[(tg-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tx^3]*[(tl+tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[tx^4]*1/[(tg-tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg+tl)^4]*1/[(tg-tl)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^2]*1/[(tg-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^2]*1/[(tl-tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^3]*[(tl-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^3]*1/[tg^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^4]*1/[(tg-tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^4]*1/[(tl+tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tl)^4]*1/[(tl-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg+tx)^2]*1/[(tg-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg+tx)^2]*1/[(tl-tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg+tx)^3]*1/[(tg+tl)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg+tx)^3]*1/[(tg-tl)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^2]*1/(tl+tx)",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^2]*1/[tx^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^2]*1/[(tl-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^3]*1/tx",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^3]*1/[tg^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^3]*1/[tl^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^4]*1/[(tg-tl)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tg-tx)^4]*1/[(tl-tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl+tx)^2]*1/[tx^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl+tx)^3]*1/[tx^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl+tx)^4]*1/[tg^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl+tx)^4]*1/[(tg+tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl+tx)^4]*1/[(tg-tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl-tx)^4]*1/[(tg-tx)^2]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "[(tl-tx)^4]*1/[(tg-tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "1/tl*1/[tg^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "1/(tg-tx)*1/[(tg+tl)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "1/[tg^3]*1/[(tg-tl)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "1/[tx^2]*1/[(tg-tx)^3]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "1/[tx^4]*1/[(tg+tx)^4]",
+        "type": "float",
+        "description": "Generated arithmetic feature"
+      },
+      {
+        "name": "composition",
+        "type": "python object",
+        "description": "The material composition"
+      },
+      {
+        "name": "dmax",
+        "type": "float",
+        "description": "The casting diameter for glassy metals",
+        "units": "mm"
+      }
+    ],
+    "inputs": [
+      "tg*1/[(tg+tx)^3]",
+      "tl*1/(tg-tx)",
+      "tx*1/tg",
+      "(tg+tl)*1/[(tl-tx)^4]",
+      "(tg-tl)*1/(tg-tx)",
+      "(tg-tx)*1/(tg-tl)",
+      "(tl+tx)*1/[tl^2]",
+      "(tl-tx)*[(tl+tx)^3]",
+      "(tl-tx)*1/(tg-tl)",
+      "(tl-tx)*1/[(tg-tx)^2]",
+      "[tg^3]*1/[(tg+tx)^3]",
+      "[tg^4]*1/[(tg-tl)^4]",
+      "[tl^2]*1/[(tl+tx)^4]",
+      "[tl^3]*1/[(tg+tl)^3]",
+      "[tl^3]*1/[(tg+tx)^3]",
+      "[tl^4]*[(tg-tx)^2]",
+      "[tx^3]*[(tl+tx)^4]",
+      "[tx^4]*1/[(tg-tx)^3]",
+      "[(tg+tl)^4]*1/[(tg-tl)^4]",
+      "[(tg-tl)^2]*1/[(tg-tx)^2]",
+      "[(tg-tl)^2]*1/[(tl-tx)^3]",
+      "[(tg-tl)^3]*[(tl-tx)^2]",
+      "[(tg-tl)^3]*1/[tg^2]",
+      "[(tg-tl)^4]*1/[(tg-tx)^4]",
+      "[(tg-tl)^4]*1/[(tl+tx)^3]",
+      "[(tg-tl)^4]*1/[(tl-tx)^2]",
+      "[(tg+tx)^2]*1/[(tg-tx)^2]",
+      "[(tg+tx)^2]*1/[(tl-tx)^4]",
+      "[(tg+tx)^3]*1/[(tg+tl)^2]",
+      "[(tg+tx)^3]*1/[(tg-tl)^4]",
+      "[(tg-tx)^2]*1/(tl+tx)",
+      "[(tg-tx)^2]*1/[tx^3]",
+      "[(tg-tx)^2]*1/[(tl-tx)^2]",
+      "[(tg-tx)^3]*1/tx",
+      "[(tg-tx)^3]*1/[tg^4]",
+      "[(tg-tx)^3]*1/[tl^2]",
+      "[(tg-tx)^4]*1/[(tg-tl)^4]",
+      "[(tg-tx)^4]*1/[(tl-tx)^4]",
+      "[(tl+tx)^2]*1/[tx^4]",
+      "[(tl+tx)^3]*1/[tx^2]",
+      "[(tl+tx)^4]*1/[tg^3]",
+      "[(tl+tx)^4]*1/[(tg+tx)^2]",
+      "[(tl+tx)^4]*1/[(tg-tx)^3]",
+      "[(tl-tx)^4]*1/[(tg-tx)^2]",
+      "[(tl-tx)^4]*1/[(tg-tx)^4]",
+      "1/tl*1/[tg^4]",
+      "1/(tg-tx)*1/[(tg+tl)^3]",
+      "1/[tg^3]*1/[(tg-tl)^3]",
+      "1/[tx^2]*1/[(tg-tx)^3]",
+      "1/[tx^4]*1/[(tg+tx)^4]"
+    ],
+    "labels": [
+      "dmax"
+    ]
+  }
+}
+
+--> Model Information <--
+{
+  "datacite": {
+    "creators": [],
+    "titles": [
+      {
+        "title": "Model for Predicting Critical Casting Diameters from Characteristic Temperatures"
+      }
+    ],
+    "publisher": "DLHub",
+    "publicationYear": "2021",
+    "identifier": {
+      "identifier": "10.YET/UNASSIGNED",
+      "identifierType": "DOI"
+    },
+    "descriptions": [],
+    "fundingReferences": [],
+    "relatedIdentifiers": [],
+    "alternateIdentifiers": [],
+    "rightsList": [],
+    "resourceType": {
+      "resourceTypeGeneral": "InteractiveResource"
+    }
+  },
+  "dlhub": {
+    "version": "0.9.4",
+    "domains": [
+      "material science",
+      "metallic glasses"
+    ],
+    "visible_to": [
+      "public"
+    ],
+    "name": "GB_2",
+    "files": {
+      "model": "GB_2_model.pickle"
+    },
+    "type": "servable",
+    "dependencies": {
+      "python": {
+        "scikit-learn": "0.24.1"
+      }
+    }
+  },
+  "servable": {
+    "methods": {
+      "run": {
+        "input": {
+          "type": "ndarray",
+          "description": "List of records to evaluate with model. Each record is a list of 50 variables.",
+          "shape": [
+            null,
+            50
+          ],
+          "item_type": {
+            "type": "float"
+          }
+        },
+        "output": {
+          "type": "ndarray",
+          "description": "Predictions of the machine learning model.",
+          "shape": [
+            null
+          ],
+          "item_type": {
+            "type": "float"
+          }
+        },
+        "parameters": {},
+        "method_details": {
+          "method_name": "predict"
+        }
+      }
+    },
+    "shim": "sklearn.ScikitLearnServable",
+    "type": "Scikit-learn estimator",
+    "options": {
+      "serialization_method": "pickle",
+      "is_classifier": false
+    },
+    "model_type": "GradientBoostingRegressor",
+    "model_summary": "GradientBoostingRegressor(max_depth=4, max_features='sqrt')"
+  }
+}
